@@ -1,1 +1,1 @@
-Sitemap: https://acharyas121.github.io/myblog/sitemap.xml
+Sitemap: https://acharyas121.github.io/sitemap.xml
