@@ -1,0 +1,10 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/basic_deep_learning.html",
+      "/posts/full_workflow_dl.html",
+      "/posts/pytorch_gradients.html"
+    ]
+  }
+]
