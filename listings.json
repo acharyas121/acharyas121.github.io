@@ -4,7 +4,10 @@
     "items": [
       "/posts/basic_deep_learning.html",
       "/posts/full_workflow_dl.html",
-      "/posts/pytorch_gradients.html"
+      "/posts/pytorch_gradients.html",
+      "/posts/boosting/adaboost.html",
+      "/posts/Boosting-Comparison/AdaBoost_GradientBoost.html",
+      "/posts/Gradient-Schmidt/algo.html"
     ]
   }
 ]

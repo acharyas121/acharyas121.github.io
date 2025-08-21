@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://acharyas121.github.io/posts/pytorch_gradients.html</loc>
-    <lastmod>2025-08-20T08:38:32.436Z</lastmod>
+    <loc>https://acharyas121.github.io/posts/boosting/adaboost.html</loc>
+    <lastmod>2025-08-21T04:41:56.963Z</lastmod>
   </url>
   <url>
-    <loc>https://acharyas121.github.io/posts/basic_deep_learning.html</loc>
-    <lastmod>2025-08-20T08:38:32.431Z</lastmod>
+    <loc>https://acharyas121.github.io/posts/Boosting-Comparison/AdaBoost_GradientBoost.html</loc>
+    <lastmod>2025-08-21T04:25:47.538Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acharyas121.github.io/posts/full_workflow_dl.html</loc>
+    <lastmod>2025-08-21T04:44:26.153Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acharyas121.github.io/index.html</loc>
+    <lastmod>2025-08-21T04:18:26.383Z</lastmod>
   </url>
   <url>
     <loc>https://acharyas121.github.io/about.html</loc>
     <lastmod>2025-08-20T08:38:32.428Z</lastmod>
   </url>
   <url>
-    <loc>https://acharyas121.github.io/index.html</loc>
-    <lastmod>2025-08-20T08:38:32.428Z</lastmod>
+    <loc>https://acharyas121.github.io/posts/basic_deep_learning.html</loc>
+    <lastmod>2025-08-20T08:38:32.431Z</lastmod>
   </url>
   <url>
-    <loc>https://acharyas121.github.io/posts/full_workflow_dl.html</loc>
-    <lastmod>2025-08-20T08:38:32.433Z</lastmod>
+    <loc>https://acharyas121.github.io/posts/pytorch_gradients.html</loc>
+    <lastmod>2025-08-21T04:52:30.337Z</lastmod>
+  </url>
+  <url>
+    <loc>https://acharyas121.github.io/posts/Gradient-Schmidt/algo.html</loc>
+    <lastmod>2025-08-21T04:37:02.960Z</lastmod>
   </url>
 </urlset>
