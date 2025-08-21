@@ -220,13 +220,18 @@ window.Quarto = {
 <li><a href="#normalization">Normalization</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
 </ol>
-<p><a id="objective"></a> ### Objective</p>
+</section>
+<section id="objective" class="level3">
+<h3 class="anchored" data-anchor-id="objective">Objective</h3>
 <ul>
 <li>Start with 2 independent vectors a and b</li>
 <li>find orthonormal vectors q1 and q2 that span the same plane</li>
 <li>find orthogonal vectors first A, B</li>
 </ul>
-<p><a id="introduction"></a> ### Introduction In linear algebra and data science, having a set of orthonormal vectors is incredibly useful. They form a basis that simplifies calculations and is the backbone of powerful techniques like Principal Component Analysis (PCA) and QR decomposition. But what if the starting vectors aren’t orthonormal? That’s where the Gram-Schmidt algorithm comes in.</p>
+</section>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>In linear algebra and data science, having a set of orthonormal vectors is incredibly useful. They form a basis that simplifies calculations and is the backbone of powerful techniques like Principal Component Analysis (PCA) and QR decomposition. But what if the starting vectors aren’t orthonormal? That’s where the Gram-Schmidt algorithm comes in.</p>
 <p><strong>Orthogonal Vectors</strong>: if their dot product is 0<br>
 <strong>Orthonormal Vectors</strong>: if their dot product is 0 and their lengths are 1</p>
 <div id="cell-4" class="cell" data-execution_count="8">
@@ -273,7 +278,10 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<p><a id="orthogonal"></a> ### Obtaining Orthogonal Vectors We’ll pick our first vector, <code>a</code>, and call it <code>A</code>. This is our first basis vector. Now, for the second vector <code>b</code>, we need to make it orthogonal to <code>A</code>. We do this by calculating the ‘shadow’ that <code>b</code> casts on <code>A</code> (its projection) and subtracting it from <code>b</code>. What’s left is a new vector, <code>B</code>, that is perfectly perpendicular (orthogonal) to <code>A</code>.</p>
+</section>
+<section id="orthogonal" class="level3">
+<h3 class="anchored" data-anchor-id="orthogonal">Obtaining Orthogonal Vectors</h3>
+<p>We’ll pick our first vector, <code>a</code>, and call it <code>A</code>. This is our first basis vector. Now, for the second vector <code>b</code>, we need to make it orthogonal to <code>A</code>. We do this by calculating the ‘shadow’ that <code>b</code> casts on <code>A</code> (its projection) and subtracting it from <code>b</code>. What’s left is a new vector, <code>B</code>, that is perfectly perpendicular (orthogonal) to <code>A</code>.</p>
 <p>Mathematically, <span class="math display">\[
 A=a \\ \\
 B = b- \frac{A^Tb}{A^TA}A
@@ -330,7 +338,10 @@ Length of B is 1.4142135623730951</code></pre>
 <pre><code>(array([0.57735027, 0.57735027, 0.57735027]), 1.0)</code></pre>
 </div>
 </div>
-<p><a id="normalization"></a> ### Normalization To make our vectors have a length of 1, we simply divide each vector by its own magnitude (its L2 norm). It is called normalization.</p>
+</section>
+<section id="normalization" class="level3">
+<h3 class="anchored" data-anchor-id="normalization">Normalization</h3>
+<p>To make our vectors have a length of 1, we simply divide each vector by its own magnitude (its L2 norm). It is called normalization.</p>
 <p><span class="math display">\[
 Q1 = \frac{A}{||A||} \\
 Q2 = \frac{B}{||B||}
@@ -376,7 +387,9 @@ Length of Q2 is 1.0</code></pre>
 </div>
 </div>
 <p>There we go! The dot product of <code>Q1</code> and <code>Q2</code> is <code>0</code>, and their lengths are both <code>1</code>. We have successfully converted our initial vectors into an <strong>orthonormal basis</strong>.</p>
-<p><a id="references"></a> ### References:</p>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References:</h3>
 <ul>
 <li><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/7ac32be444c25e48590f47573833ccc6_MIT18_06SCF11_Ses2.4sum.pdf">Orthogonal Matrices: MIT Linear Algebra 2017</a></li>
 <li><a href="https://jamesmccaffrey.wordpress.com/2019/12/14/the-difference-between-orthogonal-and-orthonormal-vectors/">Orthogonal and Orthonormal Vectors: James McCaffrey Wordpress</a></li>
