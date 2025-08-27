@@ -197,7 +197,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="introduction" class="level3">
 <h3 class="anchored" data-anchor-id="introduction">1. Introduction</h3>
-<p>Artificial intelligence, particularly deep learning, has shown incredible promise in medical imaging. Models can now analyze scans like MRIs with an accuracy that rivals human experts. But there’s a catch: these models are often “black boxes.” They give us an answer, but they don’t tell us how they reached it.</p>
+<p>Artificial intelligence, particularly deep learning, has shown incredible promise in medical imaging. Models can now analyze scans like MRIs with an accuracy that rivals human experts. But these models are often <strong>black boxes</strong>. They give us an answer, but they don’t tell us how they reached it.</p>
 <p>For a doctor to trust an AI’s diagnosis, they need to see the evidence. This is where model interpretability becomes crucial.</p>
 <p>In this post, we’ll walk through a complete project to not only train a Vision Transformer (ViT) to classify brain tumors from MRI scans but also to use powerful visualization techniques to see exactly what the model is “looking at” when it makes a prediction.</p>
 </section>
@@ -800,7 +800,7 @@ Generating Grid Visualization: Layer-wise Grad-CAM</code></pre>
 <section id="conclusion" class="level3">
 <h3 class="anchored" data-anchor-id="conclusion">7. Conclusion</h3>
 <p>In this post, we’ve gone from a dataset of MRI scans to a fully trained Vision Transformer capable of accurately classifying brain tumors. But more importantly, we’ve denied to accept the model as a “black box.” Through layer-wise attention and Grad-CAM visualizations, we’ve demonstrated that our model is behaving logically. We witnessed its focus evolve from simple textures and edges in the early layers to complex, semantic concepts in the later ones.</p>
-<p>It’s important to frame these visualizations correctly. While techniques like Grad-CAM and Attention Rollout provide powerful insights, they are still approximations of a highly complex internal process. They may not perfectly capture the model’s complete reasoning, but they serve a crucial purpose: they build confidence. They show us that the model is not relying on random artifacts in the image but is learning relevant, medically significant patterns.</p>
+<p>While techniques like Grad-CAM and Attention Rollout provide powerful insights, they are still approximations of a highly complex internal process. They may not perfectly capture the model’s complete reasoning, but they serve a crucial purpose of building confidence. They show us that the model is not relying on random artifacts in the image but is learning relevant, medically significant patterns.</p>
 </section>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">8. References</h3>
