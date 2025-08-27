@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/brain-mri/brain-mri-blog.html",
       "/posts/basic_deep_learning.html",
       "/posts/full_workflow_dl.html",
       "/posts/pytorch_gradients.html",
